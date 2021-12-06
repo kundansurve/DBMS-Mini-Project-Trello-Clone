@@ -16,23 +16,23 @@ const Landing = () => {
 
   return (
     <section className='landing'>
-      <nav className='top'>
-        <h2>TrelloClone</h2>
-        <div>
-          <Button color='inherit' href='/login'>
-            Login
-          </Button>
-          <Button variant='contained' href='/register'>
-            Sign Up
-          </Button>
-        </div>
+      <nav className='top' style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+        <h2>Trello Clone</h2>
+
       </nav>
       <div className='landing-inner'>
-        <h1>TrelloClone</h1>
-        <p>
-          Just like <a href='https://trello.com/'>Trello</a>, but made by just one guy!
-        </p>
+        <h1>Trello Clone</h1>
+        <h2>Team Members:</h2>
+        <div style={{margin:"1em"}}>
+        <h3 style={{margin:"0.5em"}}>Priyanka Salunke ( F19111151 )</h3>
+        <h3 style={{margin:"0.5em"}}>Atharv Karanjkar ( F19111029 )</h3>
+        <h3 style={{margin:"0.5em"}}>Shreyash Yewale ( F20121002 )</h3>
+        <h3 style={{margin:"0.5em"}}>Kundan Surve ( F19111005 )</h3>
+        </div>
         <div className='buttons'>
+        <Button color='inherit' href='/login'>
+            Login
+          </Button>
           <Button variant='outlined' color='inherit' href='/register'>
             Sign Up
           </Button>
